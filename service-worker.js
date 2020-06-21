@@ -1,8 +1,10 @@
-const CACHE_NAME = "React-RC0";
+const CACHE_NAME = "React-RC";
 const urlsToCache = [
   "/",
   "/nav.html",
   "/assets/icons/icon.png",
+  "/assets/icons/icon-384x384.png",
+  "/assets/icons/icon-512x512.png",
   "/assets/images/dsdf.png",
   "/assets/images/artr.png",
   "/assets/images/ncs.png",
@@ -22,6 +24,11 @@ const urlsToCache = [
   "/src/scripts/components/artr.js",
   "/src/scripts/components/ncs.js",
   "/src/scripts/components/klsi.js",
+  "/codemirror/lib/codemirror.css",
+  "/codemirror/theme/dracula.css",
+  "/codemirror/mode/javascript/javascript.js",
+  "/codemirror/lib/codemirror.js",
+  "/manifest.json"
 ];
 
 self.addEventListener("install", (event) => {
