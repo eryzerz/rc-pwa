@@ -1,4 +1,4 @@
-const CACHE_NAME = "React-RC";
+const CACHE_NAME = "React-RC-0.0.1";
 const urlsToCache = [
   "/",
   "/nav.html",
@@ -16,6 +16,7 @@ const urlsToCache = [
   "/pages/klsi.html",
   "/pages/ncs.html",
   "/src/styles/dsdf.css",
+  "/src/styles/style.css",
   "/src/styles/materialize.min.css",
   "/src/scripts/view/materialize.min.js",
   "/src/scripts/view/nav.js",
@@ -28,7 +29,8 @@ const urlsToCache = [
   "/codemirror/theme/dracula.css",
   "/codemirror/mode/javascript/javascript.js",
   "/codemirror/lib/codemirror.js",
-  "/manifest.json"
+  "/manifest.json",
+  "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=PT+Sans&display=swap"
 ];
 
 self.addEventListener("install", (event) => {
