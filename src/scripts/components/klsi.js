@@ -6,7 +6,7 @@ class KlsiPage extends HTMLElement {
     render() {
         this.innerHTML = `
         <div class="container">
-            <h3>No Component is Singleton</h3>
+            <h3>Keep the Local State Isolated/h3>
             <img class="dsdf-img" src="../assets/images/klsi.png" alt="Don't Stop the Data Flow">
             <p class="text-content">Hindari membuat state global sesering mungkin. Jangan semua state dimasukan ke dalam
                 local state, pertimbangkan semua dengan baik, untuk menghindari terjadinya
