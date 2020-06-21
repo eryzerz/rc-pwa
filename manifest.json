@@ -1,0 +1,16 @@
+{
+    "name": "ReactRC",
+    "short_name": "RC",
+    "description": "App to learn how to create resilient component in React",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#434a46",
+    "theme_color": "#43C6AC",
+    "icons": [
+        {
+            "src": "/assets/icons/icon.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}
