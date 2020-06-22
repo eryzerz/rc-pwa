@@ -1,4 +1,4 @@
-const CACHE_NAME = "React-RC-0.0.8";
+const CACHE_NAME = "React-RC-0.0.9";
 const urlsToCache = [
   "/",
   "/nav.html",
@@ -19,6 +19,7 @@ const urlsToCache = [
   "/src/styles/style.css",
   "/src/styles/materialize.min.css",
   "/src/scripts/view/materialize.min.js",
+  "/app.js",
   "/src/scripts/view/nav.js",
   "/src/scripts/components/start.js",
   "/src/scripts/components/dsdf.js",
