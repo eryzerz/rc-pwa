@@ -1,4 +1,4 @@
-const CACHE_NAME = "React-RC-0.0.2";
+const CACHE_NAME = "React-RC-0.0.6";
 const urlsToCache = [
   "/",
   "/nav.html",

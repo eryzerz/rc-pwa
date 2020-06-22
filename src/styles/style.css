@@ -25,6 +25,11 @@
     z-index: 999 !important;
 }
 
+.fad {
+    --fa-primary-color: #434a46;
+    --fa-secondary-color: #F8FFAE;
+}
+
 blockquote {
     border-left: 5px solid #43C6AC !important;
 }
