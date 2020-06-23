@@ -1,8 +1,14 @@
-const CACHE_NAME = "React-RC-0.0.11";
+const CACHE_NAME = "React-RC-0.0.12";
 const urlsToCache = [
   "/",
   "/nav.html",
   "/assets/icons/icon.png",
+  "/assets/icons/icon-72x72.png",
+  "/assets/icons/icon-96x96.png",
+  "/assets/icons/icon-128x128.png",
+  "/assets/icons/icon-144x144.png",
+  "/assets/icons/icon-152x152.png",
+  "/assets/icons/icon-192x192.png",
   "/assets/icons/icon-384x384.png",
   "/assets/icons/icon-512x512.png",
   "/assets/images/dsdf.png",
@@ -31,7 +37,8 @@ const urlsToCache = [
   "/codemirror/mode/javascript/javascript.js",
   "/codemirror/lib/codemirror.js",
   "/manifest.json",
-  "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=PT+Sans&display=swap"
+  "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=PT+Sans&display=swap",
+  "https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 ];
 
 self.addEventListener("install", (event) => {
